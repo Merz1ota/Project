@@ -13,7 +13,9 @@ const store = useCounterStore()
 const { mutatedPosts } = storeToRefs(store)
 const { fetchData } = store
 
-const { loadingData, isLoading, isError, error } = useLoading(fetchData)
+const { loadingData, isLoading,
+  // isError, error
+} = useLoading(fetchData)
 
 function handlePostClick(e: Event) {
   const target = e.target as HTMLElement
