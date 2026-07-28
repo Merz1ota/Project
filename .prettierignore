@@ -1,0 +1,25 @@
+# Директории
+node_modules/
+dist/
+build/
+coverage/
+.idea/
+.vscode/
+.vite/
+.nuxt/
+.output/
+
+# Файлы
+*.log
+*.lock
+*.map
+*.min.js
+*.min.css
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Конфиги (обычно не форматируем)
+*.config.js
+*.config.ts
+vite.config.ts
