@@ -30,16 +30,19 @@ import Main from '@/components/beautifulComponents/Main.vue'
   grid-area: header;
   background: #004ed6;
 }
+
 .container--aside {
   grid-area: aside;
   background: #f91155;
 }
+
 .container--main {
   grid-area: main;
   background: #3ac267;
   width: 600px;
   justify-self: center;
 }
+
 .container--footer {
   grid-area: footer;
   background: #001a34;
